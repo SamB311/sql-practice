@@ -26,6 +26,6 @@ WHERE population <500000;
 
 -- Multiple conditions
 SELECT name
-,continent
+,population
 FROM country
-WHERE continent= 'Europe' AND region= 'Western Europe';
+WHERE population BETWEEN 100000 AND 300000;
