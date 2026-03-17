@@ -1,4 +1,4 @@
--- WHERE clause practice
+-- WHERE practice
 
 -- Filter countries in Europe
 SELECT name
