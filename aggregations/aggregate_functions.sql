@@ -13,3 +13,7 @@ FROM country;
 -- Get minimum population
 SELECT MIN(population)
 FROM country;
+
+-- Get total population
+SELECT SUM(population)
+FROM country;
