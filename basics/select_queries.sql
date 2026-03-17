@@ -8,3 +8,7 @@ FROM country;
 SELECT name
 ,continent
 FROM country;
+
+-- Get unique continents
+SELECT DISTINCT continent
+from country;
