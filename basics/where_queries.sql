@@ -6,8 +6,26 @@ SELECT name
 FROM country
 WHERE continent = 'Europe';
 
--- Filter by region
+-- Not equal (<>)
 SELECT name
-,region
+,continent
 FROM country
-WHERE region = 'Western Europe';
+WHERE continent <>'Europe'
+
+-- Greater than (>)
+SELECT name
+,population
+FROM country
+WHERE population >100000;
+
+-- Less than
+SELECT name
+,population
+FROM country 
+WHERE population <500000;
+
+-- Multiple conditions
+SELECT name
+,continent
+FROM country
+WHERE continent= 'Europe' AND region= 'Western Europe';
